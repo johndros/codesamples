@@ -67,6 +67,9 @@
     </Reference>
   </ItemGroup>
   <ItemGroup>
+    <Content Include="Index.html" />
+    <Content Include="Scipts\angular.js" />
+    <Content Include="Scipts\Script.js" />
     <Content Include="Web.config" />
   </ItemGroup>
   <ItemGroup>
