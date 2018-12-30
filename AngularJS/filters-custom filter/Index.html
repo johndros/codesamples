@@ -1,0 +1,31 @@
+﻿<!DOCTYPE html>
+<html ng-app="myModule">
+<head>
+    <meta charset="utf-8" />
+    <script src="Scipts/angular.js"></script>
+    <script src="Scipts/Script.js"></script>
+    <script src="Scipts/filter.js"></script>
+    <link href="style.css" rel="stylesheet" />
+    <title>AngularJS</title>
+</head>
+<body>
+    <div ng-controller="myController">
+        <table>
+            <thead>
+                <tr>
+                    <th>Name </th>
+                    <th>Gender </th>
+                    <th>Salary</th>
+                </tr>
+            </thead>
+            <tbody>
+                <tr ng-repeat="employee in employees">
+                    <td>{{ employee.name}}</td>
+                    <td>{{ employee.gender | gender}}</td>
+                    <td>{{ employee.salary | currency:"€":1}}</td>
+                </tr>
+            </tbody>
+        </table>
+    </div>
+</body>
+</html>
