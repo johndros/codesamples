@@ -3,17 +3,25 @@ Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio 15
 VisualStudioVersion = 15.0.28307.168
 MinimumVisualStudioVersion = 10.0.40219.1
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "1-Modules_Controllers", "1-Modules_Controllers\1-Modules_Controllers.csproj", "{F2F9BDF5-D822-4E51-B7F1-A4801C797C69}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Modules_Controllers", "1-Modules_Controllers\Modules_Controllers.csproj", "{F2F9BDF5-D822-4E51-B7F1-A4801C797C69}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "2-Controllers", "2-Controllers\2-Controllers.csproj", "{F6D45A7C-9429-47D5-AD4A-31C9E6393214}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Controllers", "2-Controllers\Controllers.csproj", "{F6D45A7C-9429-47D5-AD4A-31C9E6393214}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "3-ng src", "3-ng src\3-ng src.csproj", "{9D881246-A07D-407B-9B5C-0F57CCDCD518}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ng src", "3-ng src\ng src.csproj", "{9D881246-A07D-407B-9B5C-0F57CCDCD518}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "4-2way data binding", "4-2way data binding\4-2way data binding.csproj", "{226063A4-2AB7-4EB1-81EF-C0042E205F07}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "2way data binding", "4-2way data binding\2way data binding.csproj", "{226063A4-2AB7-4EB1-81EF-C0042E205F07}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "5-ng repeat", "5-ng repeat\5-ng repeat.csproj", "{0D8221C9-6758-422C-8056-770710B3ACA7}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ng repeat", "5-ng repeat\ng repeat.csproj", "{0D8221C9-6758-422C-8056-770710B3ACA7}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "6-nested_ng repeat", "6-nested_ng repeat\6-nested_ng repeat.csproj", "{4D3B5564-7501-424C-81A6-F518140B0DE0}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ng repeat_nested", "6-nested_ng repeat\ng repeat_nested.csproj", "{4D3B5564-7501-424C-81A6-F518140B0DE0}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Events", "7-Events\Events.csproj", "{A527F227-99DF-415F-8AAF-54038CB77C29}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "filters", "8-filters\filters.csproj", "{9F850C1D-1E23-401B-A0B9-E1111592D018}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "filters_sort data", "9-filters_sort data\filters_sort data.csproj", "{AA1F6CBA-1192-4BB3-930A-A5837B663BC7}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "filters_sort rows", "10-filters_sort rows\filters_sort rows.csproj", "{7446C52D-EB28-417B-BC6C-552723957476}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -45,6 +53,22 @@ Global
 		{4D3B5564-7501-424C-81A6-F518140B0DE0}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{4D3B5564-7501-424C-81A6-F518140B0DE0}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{4D3B5564-7501-424C-81A6-F518140B0DE0}.Release|Any CPU.Build.0 = Release|Any CPU
+		{A527F227-99DF-415F-8AAF-54038CB77C29}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{A527F227-99DF-415F-8AAF-54038CB77C29}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{A527F227-99DF-415F-8AAF-54038CB77C29}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{A527F227-99DF-415F-8AAF-54038CB77C29}.Release|Any CPU.Build.0 = Release|Any CPU
+		{9F850C1D-1E23-401B-A0B9-E1111592D018}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{9F850C1D-1E23-401B-A0B9-E1111592D018}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{9F850C1D-1E23-401B-A0B9-E1111592D018}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{9F850C1D-1E23-401B-A0B9-E1111592D018}.Release|Any CPU.Build.0 = Release|Any CPU
+		{AA1F6CBA-1192-4BB3-930A-A5837B663BC7}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{AA1F6CBA-1192-4BB3-930A-A5837B663BC7}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{AA1F6CBA-1192-4BB3-930A-A5837B663BC7}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{AA1F6CBA-1192-4BB3-930A-A5837B663BC7}.Release|Any CPU.Build.0 = Release|Any CPU
+		{7446C52D-EB28-417B-BC6C-552723957476}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{7446C52D-EB28-417B-BC6C-552723957476}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{7446C52D-EB28-417B-BC6C-552723957476}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{7446C52D-EB28-417B-BC6C-552723957476}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
