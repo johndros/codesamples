@@ -35,6 +35,12 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ng include", "ng include\ng
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "custom service", "custom service\custom service.csproj", "{CDF10962-D61E-4BCF-872B-C8CCE0C60E3F}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Anchorscroll", "Anchorscroll\Anchorscroll.csproj", "{C1AF4051-6C69-4511-9718-B66C84D98AE9}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ng route", "Routing\ng route.csproj", "{004CE004-BE17-449A-99E7-AA41BD62137A}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Controller As syntax - nested scopes", "Controller As syntax - nested scopes\Controller As syntax - nested scopes.csproj", "{CA853995-E1DF-4553-8657-A5FD0C253AAB}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -105,6 +111,18 @@ Global
 		{CDF10962-D61E-4BCF-872B-C8CCE0C60E3F}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{CDF10962-D61E-4BCF-872B-C8CCE0C60E3F}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{CDF10962-D61E-4BCF-872B-C8CCE0C60E3F}.Release|Any CPU.Build.0 = Release|Any CPU
+		{C1AF4051-6C69-4511-9718-B66C84D98AE9}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{C1AF4051-6C69-4511-9718-B66C84D98AE9}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{C1AF4051-6C69-4511-9718-B66C84D98AE9}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{C1AF4051-6C69-4511-9718-B66C84D98AE9}.Release|Any CPU.Build.0 = Release|Any CPU
+		{004CE004-BE17-449A-99E7-AA41BD62137A}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{004CE004-BE17-449A-99E7-AA41BD62137A}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{004CE004-BE17-449A-99E7-AA41BD62137A}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{004CE004-BE17-449A-99E7-AA41BD62137A}.Release|Any CPU.Build.0 = Release|Any CPU
+		{CA853995-E1DF-4553-8657-A5FD0C253AAB}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{CA853995-E1DF-4553-8657-A5FD0C253AAB}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{CA853995-E1DF-4553-8657-A5FD0C253AAB}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{CA853995-E1DF-4553-8657-A5FD0C253AAB}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE

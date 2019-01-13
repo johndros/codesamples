@@ -7,12 +7,12 @@
     <ProductVersion>
     </ProductVersion>
     <SchemaVersion>2.0</SchemaVersion>
-    <ProjectGuid>{CDF10962-D61E-4BCF-872B-C8CCE0C60E3F}</ProjectGuid>
+    <ProjectGuid>{004CE004-BE17-449A-99E7-AA41BD62137A}</ProjectGuid>
     <ProjectTypeGuids>{349c5851-65df-11da-9384-00065b846f21};{fae04ec0-301f-11d3-bf4b-00c04f79efbc}</ProjectTypeGuids>
     <OutputType>Library</OutputType>
     <AppDesignerFolder>Properties</AppDesignerFolder>
-    <RootNamespace>custom_service</RootNamespace>
-    <AssemblyName>custom service</AssemblyName>
+    <RootNamespace>Routing</RootNamespace>
+    <AssemblyName>Routing</AssemblyName>
     <TargetFrameworkVersion>v4.6.1</TargetFrameworkVersion>
     <UseIISExpress>true</UseIISExpress>
     <Use64BitIISExpress />
@@ -67,11 +67,14 @@
     </Reference>
   </ItemGroup>
   <ItemGroup>
-    <Content Include="Index.html" />
-    <Content Include="Scipts\angular.js" />
-    <Content Include="Scipts\Script.js" />
-    <Content Include="Scipts\stringService.js" />
+    <Content Include="index.html" />
+    <Content Include="Scripts\angular-route.min.js" />
+    <Content Include="Scripts\angular.js" />
+    <Content Include="Scripts\Script.js" />
     <Content Include="style.css" />
+    <Content Include="Templates\courses.html" />
+    <Content Include="Templates\home.html" />
+    <Content Include="Templates\students.html" />
     <Content Include="Web.config" />
   </ItemGroup>
   <ItemGroup>
@@ -86,6 +89,7 @@
       <DependentUpon>Web.config</DependentUpon>
     </None>
   </ItemGroup>
+  <ItemGroup />
   <PropertyGroup>
     <VisualStudioVersion Condition="'$(VisualStudioVersion)' == ''">10.0</VisualStudioVersion>
     <VSToolsPath Condition="'$(VSToolsPath)' == ''">$(MSBuildExtensionsPath32)\Microsoft\VisualStudio\v$(VisualStudioVersion)</VSToolsPath>
@@ -99,9 +103,9 @@
         <WebProjectProperties>
           <UseIIS>True</UseIIS>
           <AutoAssignPort>True</AutoAssignPort>
-          <DevelopmentServerPort>62974</DevelopmentServerPort>
+          <DevelopmentServerPort>14183</DevelopmentServerPort>
           <DevelopmentServerVPath>/</DevelopmentServerVPath>
-          <IISUrl>http://localhost:62974/</IISUrl>
+          <IISUrl>http://localhost:14183/</IISUrl>
           <NTLMAuthentication>False</NTLMAuthentication>
           <UseCustomServer>False</UseCustomServer>
           <CustomServerUrl>

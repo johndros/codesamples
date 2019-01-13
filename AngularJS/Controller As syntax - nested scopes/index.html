@@ -1,0 +1,20 @@
+﻿<!DOCTYPE html>
+<html ng-app="Demo">
+<head>
+    <meta charset="utf-8" />
+    <title></title>
+    <script src="angular.js"></script>
+    <script src="script.js"></script>
+</head>
+<body>
+    <div ng-controller="countryController as cnCtrl">
+        {{cnCtrl.name}}
+        <div ng-controller="stateController as stCtrl">
+            {{cnCtrl.name}} - {{stCtrl.name}}
+            <div ng-controller="cityController as ctCtrl">
+                {{cnCtrl.name}} - {{stCtrl.name}} - {{ctCtrl.name}}
+            </div>
+        </div>
+    </div>
+</body>
+</html>
