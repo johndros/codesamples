@@ -41,6 +41,8 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ng route", "Routing\ng rout
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Controller As syntax - nested scopes", "Controller As syntax - nested scopes\Controller As syntax - nested scopes.csproj", "{CA853995-E1DF-4553-8657-A5FD0C253AAB}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "rootScope", "rootScope\rootScope.csproj", "{ACF282A9-B917-4A72-8F45-0174ADE03031}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -123,6 +125,10 @@ Global
 		{CA853995-E1DF-4553-8657-A5FD0C253AAB}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{CA853995-E1DF-4553-8657-A5FD0C253AAB}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{CA853995-E1DF-4553-8657-A5FD0C253AAB}.Release|Any CPU.Build.0 = Release|Any CPU
+		{ACF282A9-B917-4A72-8F45-0174ADE03031}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{ACF282A9-B917-4A72-8F45-0174ADE03031}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{ACF282A9-B917-4A72-8F45-0174ADE03031}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{ACF282A9-B917-4A72-8F45-0174ADE03031}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
