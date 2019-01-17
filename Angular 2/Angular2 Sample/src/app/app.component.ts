@@ -2,12 +2,9 @@ import {Component} from "@angular/core"
 
 @Component({
     selector: 'my-app',
-    template: `<div>
-                            <h1>{{pageHeader}}</h1>
-                            <my-employee></my-employee>
-                        </div>`
+    template: `<list-employee></list-employee>`
 })
 
 export class AppComponent {
-    pageHeader: string = "Employee Details";
+    test: string = '2way '
 }

@@ -1,16 +1,11 @@
-﻿<!--<style>
-    table {
-        color: #369;
-        font-family: Arial, Helvetica, sans-serif;
-        font-size: large;
-        border-collapse: collapse
-    }
-
-    td {
-        border: 1px solid black
-    }
-</style>-->
-<table>
+﻿<table>
+    <thead>
+        <tr>
+            <th colspan="2">
+                Employee Details
+            </th>
+        </tr>
+    </thead>
     <tr>
         <td>First Name</td>
         <td>{{firstName}}</td>
@@ -19,12 +14,17 @@
         <td>Last Name</td>
         <td>{{lastName}}</td>
     </tr>
-    <tr>
+    <tr *ngIf="showDetails">
         <td>Gender</td>
         <td>{{gender}}</td>
     </tr>
-    <tr>
+    <tr *ngIf="showDetails">
         <td>Age</td>
         <td>{{age}}</td>
     </tr>
 </table>
+<br />
+<button (click)="toggleDetails()">
+    {{showDetails ? 'Hide' : 'Show'}} Details
+</button>
+<br />
