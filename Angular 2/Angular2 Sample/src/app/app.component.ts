@@ -6,5 +6,5 @@ import {Component} from "@angular/core"
 })
 
 export class AppComponent {
-    test: string = '2way '
+    userText: string = 'Testing';
 }
