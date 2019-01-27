@@ -1,0 +1,28 @@
+﻿<div *ngIf="card" style="margin-top: 60px;">
+    <h1 style="background-color: #0000006b;
+    width: max-content;
+    margin: 0 auto;
+    padding: 5px;
+    border-radius: 5px;
+    text-shadow: 1px 1px 3px #9dcafd;
+    box-shadow: 0px 0px 7px 3px gold;
+    color: #e9ecef;">
+        {{card.name}}
+    </h1>
+    <br />
+    <div class="media" style="margin-top: 50px">
+        <img src="http://52.57.88.137/api/card_image/{{card.name}}" class="mr-3" alt="{{card.name}}" style="width: 285px;box-shadow: 0px 0px 7px 3px gold;">
+        <div class="media-body"
+             style="background-color: #0000006b;color: #e9ecef;padding: 5px;text-shadow: 1px 1px 3px #9dcafd;border-radius: 5px;box-shadow: 0px 0px 7px 3px gold;">
+            <h3 class="mt-0">Description</h3>
+            <p>{{card.text}}</p>
+            <h3 class="mt-0">Details</h3>
+            <p>Level: {{card.level}}</p>
+            <p>Type: {{card.type}}</p>
+            <p>Family: {{card.family}}</p>
+            <p>Atk: {{card.atk}}</p>
+            <p>Def: {{card.def}}</p>
+            <p>Property: {{card.property}}</p>
+        </div>
+    </div>
+</div>

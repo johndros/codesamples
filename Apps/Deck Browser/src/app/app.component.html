@@ -1,0 +1,33 @@
+﻿<div class="container-fluid">
+    <div class="row">
+        <nav class="dropdown dropmenu">
+            <a class="nav-link dropdown-toggle" data-toggle="dropdown" role="button" aria-haspopup="true" aria-expanded="false">Card List</a>
+            <div class="dropdown-menu"
+                 style="overflow-y: scroll;overflow-x: hidden;max-height:calc(93vh);top: 55px;padding: 0">
+                <a class="dropdown-item" *ngFor="let card of cards" (click)="onSelect(card)">
+                    <h6>
+                        {{card.name}}
+                        <span class="badge badge-info"
+                              style="display:block;margin:5px 0;padding:5px 19px;
+                                    font-weight:normal;font-size: 15px;text-transform: capitalize">
+                            {{card.card_type}}
+                        </span>
+                    </h6>
+                </a>
+            </div>
+        </nav>
+        <div class="col-xl-2 left-sb">
+            <nav class="nav flex-column n-links" *ngFor="let card of cards">
+                <a class="nav-link" (click)="onSelect(card)">
+                    <h6>{{card.name}}</h6>
+                    <span class="badge badge-info"
+                          style="display:block;float:right;margin:5px 0;padding:5px 19px;
+                    font-weight:normal;font-size: 15px;text-transform: capitalize;">
+                        {{card.card_type}}
+                    </span>
+                </a>
+            </nav>
+        </div>
+        <main [card]="selectedCard" class="col-12 col-xl-10 main"></main>
+    </div>
+</div>

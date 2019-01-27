@@ -5,17 +5,34 @@ var __decorate = (this && this.__decorate) || function (decorators, target, key,
     else for (var i = decorators.length - 1; i >= 0; i--) if (d = decorators[i]) r = (c < 3 ? d(r) : c > 3 ? d(target, key, r) : d(target, key)) || r;
     return c > 3 && r && Object.defineProperty(target, key, r), r;
 };
+var __metadata = (this && this.__metadata) || function (k, v) {
+    if (typeof Reflect === "object" && typeof Reflect.metadata === "function") return Reflect.metadata(k, v);
+};
 Object.defineProperty(exports, "__esModule", { value: true });
 var core_1 = require("@angular/core");
+var service_1 = require("./service");
 var AppComponent = /** @class */ (function () {
-    function AppComponent() {
-        this.userText = 'Testing';
+    function AppComponent(_Service) {
+        this._Service = _Service;
     }
+    AppComponent.prototype.ngOnInit = function () {
+        var _this = this;
+        this._Service.getCards()
+            .subscribe(function (cards) { return _this.cards = cards; }, function (error) {
+            console.error(error);
+        });
+    };
+    AppComponent.prototype.onSelect = function (card) {
+        this.selectedCard = card;
+    };
     AppComponent = __decorate([
         core_1.Component({
             selector: 'my-app',
-            template: "<div style=\"padding:5px\">\n                            <ul class=\"nav nav-tabs\" style=\"margin-bottom: 10px;\">\n                                  <li class=\"nav-item\"><a class=\"nav-link\" routerLink=\"home\">Home</a></li>\n                                  <li class=\"nav-item\"><a class=\"nav-link\" routerLink=\"employees\">Employees</a></li>\n                            </ul>\n                            <router-outlet></router-outlet>\n                        </div>\n                        "
-        })
+            templateUrl: 'app/app.component.html',
+            styleUrls: ['app/styles.css'],
+            providers: [service_1.DeckService]
+        }),
+        __metadata("design:paramtypes", [service_1.DeckService])
     ], AppComponent);
     return AppComponent;
 }());
